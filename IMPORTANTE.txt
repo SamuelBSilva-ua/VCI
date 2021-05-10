@@ -1,0 +1,29 @@
+Existem 2 projetos .py
+
+Projeto 1- Interface
+
+	neste projeto é efetuada a calibração das máscaras das cores em HSV com recurso a track bars
+	
+	Instruções:
+		1-Efetuar a calibração manipulando as track bars
+  		2-Premir a tecla "a" para guardar os valores
+		3-Escrever a cor seguido da expressão seguinte "Mask.txt" por exemplo: YellowMask.txt
+
+Projeto 2- Contornos
+	
+	neste projeto é efetuada a aplicação das máscaras para as cores definidas no ficheiro Interface.py
+
+	Instruções
+		1- O user pode aplicar a máscara de apenas uma cor se pretender detetar apenas uma determinada cor
+		2- Basta o user escrever a cor que pretende detetar por exemplo: amarelo
+		3- Serão mostrados os resultados da aplicação da máscara da referida cor
+		4- Se o utilizador escrever uma cor que ainda não tenha a sua máscara definida, receberá uma mensagem a convidar a definir a máscara no ficheiro Interface
+		5- O número de peças de cada cor é escrito num ficheiro txt cujo nome é do tipo: yellowMaskNumber
+		6- O user pode aplicar todas as máscaras definidas no ficheiro interace. Para isso basta escrever "todas"
+
+Estes projetos têm como objetivo a perceção de como funcionam os algoritmos/comandos de deteção. Por isso, os algoritmos
+desenvolvidos por nós não estão, ainda optimizados. Para além disso, não estão definidas máscaras para todas as cores. 
+Em relação à otimização da deteção de cores e contagem de peças, esta será efetuada com recurso a calibração em hardware com uma 
+escolha criteriosa do ambiente de luminosidade, daí não ser tão importante nesta fase a otimização.
+As máscaras para todas as cores não estão definidas porque o importante para nós neste momento era perceber o funcionamento dos algoritmos
+de deteção e a perceção do pipeline a adotar na deteção e caracterização de cada peça.
